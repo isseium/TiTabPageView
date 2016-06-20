@@ -1,5 +1,33 @@
 <Alloy>
-	<Window class="container">
-		<Label id="label" onClick="doClick">Hello, World</Label>
-	</Window>
+  <Window class="container">
+    <ScrollableView id="sv">
+      <View backgroundColor="red" id="hoge">
+        <Label id="label" onClick="doClick">1</Label>
+      </View>
+      <View backgroundColor="blue" id="piyo">
+        <Label id="label" onClick="doClick">2</Label>
+      </View>
+      <View backgroundColor="orange" id="fuga">
+        <Label id="label" onClick="doClick">3</Label>
+      </View>
+      <View backgroundColor="yellow">
+        <Label id="label" onClick="doClick">4</Label>
+      </View>
+      <View backgroundColor="gray">
+        <Label id="label" onClick="doClick">5</Label>
+      </View>
+      <View backgroundColor="pink">
+        <Label id="label" onClick="doClick">6</Label>
+      </View>
+      <View backgroundColor="purple">
+        <Label id="label" onClick="doClick">7</Label>
+      </View>
+      <View backgroundColor="green">
+        <Label id="label" onClick="doClick">8</Label>
+      </View>
+      <View backgroundColor="cyan">
+        <Label id="label" onClick="doClick">9</Label>
+      </View>
+    </ScrollableView>
+  </Window>
 </Alloy>
